@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(29, 1, 94);
+}
+
+#main{
+    border: 3px solid;
+    height: 500px;
+    width: 90%;
+    background: linear-gradient(rgb(0, 132, 194), rgb(0, 255, 213));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#perinfobg{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px blue;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 25px;
+    height: 75px;
+    width: auto;
+    background: linear-gradient(rgb(180, 234, 255), rgb(131, 198, 221));
+    padding: 10px;
+    margin: 0px;
+    padding: 0;
+}
+
+#perinfo{
+    color: rgb(72, 157, 255);
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    width: 35%;
+    height: 75px;
+}
+
+#links{
+    font-size: 17px;
+    width: 28%;
+    height: 75px;
+}
+
+#descript{
+    width: 35%;
+    height: auto;
+}
+
+.column{
+    float: left;
+}
+
+.row::after{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: aqua;
+}
+
+#github:hover{
+    color: #161b22f2;
+}
+
+#wix:hover{
+    color: rgb(39, 199, 39);
+}
