@@ -5,8 +5,8 @@ body{
 
 #main{
     border: 3px solid;
-    height: 500px;
-    width: 1500px;
+    height: 32em;
+    width: 95%;
     background: linear-gradient(rgb(0, 132, 194), rgb(0, 255, 213));
     margin-left: auto;
     margin-right: auto;
@@ -38,15 +38,15 @@ body{
 }
 
 #links{
-    font-size: 17px;
+    font-size: 1.0625em;
     width: 28%;
     height: 4.6875em;
 }
 
 #descript{
     vertical-align: middle;
-    margin-top: 5px;
-    font-size: 17px;
+    margin-top: 0.3125em;
+    font-size: 1.0625em;
     width: 35%;
     height: 4.6875em;
 }
