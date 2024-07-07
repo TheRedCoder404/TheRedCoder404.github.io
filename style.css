@@ -10,6 +10,8 @@ body{
     background: linear-gradient(rgb(0, 132, 194), rgb(0, 255, 213));
     margin-left: auto;
     margin-right: auto;
+    font-family: "Inter";
+    font-weight: 600;
 }
 
 #perinfobg{
@@ -17,8 +19,6 @@ body{
     top: 0;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 3px blue;
-    font-family: "Inter";
-    font-weight: 600;
     height: 4.6875em;
     width: auto;
     background: linear-gradient(rgb(180, 234, 255), rgb(131, 198, 221));
@@ -45,10 +45,14 @@ body{
 
 #descript{
     vertical-align: middle;
-    margin-top: 0.3125em;
     font-size: 1.0625em;
+    margin-top: 0.33em;
     width: 35%;
     height: 4.6875em;
+}
+
+#descrpara{
+    margin-top: 0em;
 }
 
 .column{
@@ -63,7 +67,7 @@ a{
     color: white;
 }
 
-a:hover{
+#email:hover{
     color: aqua;
 }
 
@@ -80,5 +84,33 @@ a:hover{
 }
 
 #contents{
-    margin-top: 50px;
+    margin-top: 7.5em;
+    padding-left: 1em;
+    text-shadow: 2px 2px 3px blue;
+    color: rgb(140, 203, 255);
+}
+
+#contentuebrschr{
+    color: rgb(1, 99, 211);
+    text-shadow: 2px 2px 2px rgb(150, 192, 255);
+}
+
+#schulbildung{
+    width: 30em;
+    float: left;
+}
+
+#praktika{
+    width: 33em;
+    float: left;
+}
+
+#ausbildung{
+    width: 30em;
+    float: left;
+}
+
+h4{
+    padding-bottom: 0em;
+    margin-bottom: 0em;
 }
