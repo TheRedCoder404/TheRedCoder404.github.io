@@ -127,3 +127,9 @@ table td, table td * {
 #serverdescript{
     padding-left: 2em;
 }
+
+#erfahrungpython{
+    text-align: right;
+    margin-top: 7em;
+    padding-right: 2em;
+}
