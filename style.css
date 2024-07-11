@@ -1,70 +1,62 @@
 body{
-    background-color: rgb(29, 1, 94);
+    background-color: rgb(22, 22, 22);
     font-size: 100%;
 }
 
 #main{
     border: 3px solid;
-    height: 32em;
-    width: 95em;
-    background: linear-gradient(rgb(0, 132, 194), rgb(0, 255, 213));
+    border-color: black;
+    height: auto;
+    width: 75em;
+    background: linear-gradient(rgb(77, 77, 77), rgb(37, 37, 37));
     margin-left: auto;
     margin-right: auto;
     font-family: "Inter";
     font-weight: 600;
+    color: rgb(230, 230, 230);
+    border-radius: 10px;
 }
 
 #perinfobg{
     position: sticky;
-    top: 0;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 3px blue;
-    height: 4.6875em;
-    width: auto;
-    background: linear-gradient(rgb(180, 234, 255), rgb(131, 198, 221));
-    padding: 10px;
-    margin: 0px;
-    padding: 0;
+    top: 0px;
+    height: 4.7em;
+    width: 100%;
+    background: linear-gradient(rgb(77, 77, 77), rgb(37, 37, 37));
+    z-index: 1;
 }
 
-#perinfo{
-    color: rgb(72, 157, 255);
+#name{
+    color: rgb(219, 219, 219);
     font-size: 1.5625em;
     text-align: center;
     vertical-align: middle;
     line-height: 0em;
-    width: 35%;
-    height: 4.6875em;
+    margin-left: 2em;
+    width: auto;
+    height: 3em;
 }
 
 #links{
-    font-size: 1.0625em;
-    width: 28%;
-    height: 4.6875em;
-}
-
-#descript{
     vertical-align: middle;
     font-size: 1.0625em;
-    margin-top: 0.33em;
-    width: 35%;
-    height: 4.6875em;
-}
-
-#descrpara{
-    margin-top: 0em;
+    margin-left: 5em;
+    padding-top: 1em;
+    width: 50%;
+    height: 3em;
 }
 
 .column{
     float: left;
 }
 
-.row::after{
+.trapez::after{
     clear: both;
 }
+
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(219, 219, 219);
 }
 
 #email:hover{
@@ -83,34 +75,55 @@ a{
     color: rgb(236, 77, 77);
 }
 
-#contents{
-    margin-top: 7.5em;
-    padding-left: 1em;
-    text-shadow: 2px 2px 3px blue;
-    color: rgb(140, 203, 255);
+#generallink:hover{
+    color: gray;
 }
 
-#contentuebrschr{
-    color: rgb(1, 99, 211);
-    text-shadow: 2px 2px 2px rgb(150, 192, 255);
-}
-
-#schulbildung{
-    width: 30em;
+.trapez{
+    border-top: 15px solid rgb(236, 0, 0);
+    border-left: 5px solid transparent;
+    border-right: 900px solid transparent;
+    height: 0;
+    width: 290px;
+    margin-top: 0;
+    margin-left: 5px;
     float: left;
 }
 
-#praktika{
-    width: 33em;
-    float: left;
+#descript{
+    margin-top: 5em;
+    padding-left: 2em;
 }
 
-#ausbildung{
-    width: 30em;
-    float: left;
+lottie-player{
+    margin: 0 auto;
 }
 
-h4{
-    padding-bottom: 0em;
-    margin-bottom: 0em;
+#berufehead{
+    text-align: right;
+    margin-top: 7em;
+    padding-right: 2em;
+}
+
+#berufe{
+    text-align: left;
+    font-size: 15px;
+    padding-left: 2em;
+}
+
+table td, table td * {
+    vertical-align: top;
+}
+
+#eigenhead{
+    margin-top: 7em;
+    padding-left: 2em;
+}
+
+#serverhead{
+    padding-left: 2em;
+}
+
+#serverdescript{
+    padding-left: 2em;
 }
