@@ -133,3 +133,30 @@ table td, table td * {
     margin-top: 7em;
     padding-right: 2em;
 }
+
+#erfahrunghtml{
+    margin-top: 7em;
+    padding-left: 2em;
+}
+
+#htmlplayer{
+    position: relative;
+    top: -6em;
+}
+
+#erfahrungjava{
+    text-align: right;
+    margin-top: -6em;
+    padding-right: 2em;
+}
+
+#endwort{
+    text-align: center;
+    margin-top: 10em;
+}
+
+#endwortdescript{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+}
