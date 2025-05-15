@@ -42,11 +42,12 @@
                 <div>
                     <table style="width: 100%;">
                         <tr>
-                            <td style="width: 50%;"><p>Ich bin Jan Marten Jasper, bin 19 Jahre alt und suche momentan nach einer Lehrstelle. Ich interessiere mich im Allgemeinen für Technik bzw. Hardware und Software, weshalb ich mich auch für die Informatik entschieden habe. Ich habe schon Erfahrung mit sowohl Hardware als auch Software gesammelt, da ich z.B. ein paar Arduino Projekte gemacht habe, wovon ich auch ein paar auf meiner WIX-Seite hochgeladen habe. Noch dazu arbeite ich schon seit der Grundschule mit Windows PCs (privat als auch in der Schule) und habe mit ungefähr 10 - 12 Jahren meine ersten Programmier-Erfahrungen gesammelt und zwar mit dem programmieren von Minecraft Mods.</p></td>
+                            <td style="width: 50%;"><p>Ich bin Jan Marten Jasper, bin <span id="age">19</span> Jahre alt und suche momentan nach einer Lehrstelle. Ich interessiere mich im Allgemeinen für Technik bzw. Hardware und Software, weshalb ich mich auch für die Informatik entschieden habe. Ich habe schon Erfahrung mit sowohl Hardware als auch Software gesammelt, da ich z.B. ein paar Arduino Projekte gemacht habe, wovon ich auch ein paar auf meiner WIX-Seite hochgeladen habe. Noch dazu arbeite ich schon seit der Grundschule mit Windows PCs (privat als auch in der Schule) und habe mit ungefähr 10 - 12 Jahren meine ersten Programmier-Erfahrungen gesammelt und zwar mit dem programmieren von Minecraft Mods.</p></td>
                         
                             <td style="width: 50%;"><lottie-player src="https://lottie.host/286889ea-cac5-40a5-a240-06f67c3428aa/BZdnwNR84G.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player></td>
                         </tr>
                     </table>
+
                 </div>
             </div>
 
@@ -236,7 +237,13 @@
                     <p>Vielen Dank, dass Sie sich die Zeit genommen haben sich mit meiner Website und mir zu beschäftigen. Ich hoffe Ihnen hat diese kleine Website und ihr inhalt gefallen. <br><br> Falls dem so war, wäre ich sehr über eine positive rückmeldung erfreut. <br><br> Mit freundlichen Grüßen <br> Jan Marten Jasper</p>
                 </div>
             </div>
-
         </div>
+        
+        <script src="js/strings.js"></script>
+        <script src="js/personalData.js"></script>
+        <script>
+            date = new Date(personalDataStrings.birthDate)
+            document.getElementById("age").textContent = HasBeenYears(date);
+        </script>
     </body>
 </html>
