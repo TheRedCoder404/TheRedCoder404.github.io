@@ -67,6 +67,10 @@ a{
     color: #161b22f2;
 }
 
+#test:hover{
+    color: #161b22f2;
+}
+
 #wix:hover{
     color: rgb(39, 199, 39);
 }
